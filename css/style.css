@@ -1,0 +1,350 @@
+body {
+    background-color: #150202; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #150202;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.carrito{
+    height: 50px;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(204, 204, 204);
+}
+
+.imagen-inicio {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.imagen-inicio img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.boton-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center; 
+    transform: translate(-50%, -50%);
+}
+
+.boton {
+    background-color: #00000091; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 2em; 
+    display: inline-block; 
+}
+
+
+.promos {
+    color: white;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: #272424; /* Color gris */
+    width: 70%;
+    margin: 0 auto; /* Centrando el div */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.producto {
+    background-color: rgb(189, 189, 189); 
+    width: 35%; 
+    padding: 15px;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.imagen {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 1.4em;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+.boton-compra {
+    background-color: #000000e3; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-compra:hover {
+    background-color: #313131; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos para la sección de más productos (3 por fila) */
+.mas-productos {
+    background-color: #150202; /* Fondo gris oscuro */
+    width: 70%;
+    margin: 20px auto; /* Centrando el div */
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; /* Mantiene el espaciado entre productos */
+    flex-wrap: wrap; /* Permite que se envuelvan los productos */
+}
+
+
+
+.mas-productos .producto {
+    width: 30%; /* Ajuste para que quepan 3 productos por fila */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: #141414;
+    padding: 30px 0;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.footer-links ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.footer-links ul li{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgb(58, 58, 58);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+
+}
+
+.carrito-contenedor {
+    background-color: #272424;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+
+.carrito-titulo {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.producto-carrito {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3d3d3d;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.imagen-carrito {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.detalles-carrito {
+    flex: 1;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.carrito-boton-finalizar {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.carrito-boton-finalizar:hover {
+    background-color: #a52a2a;
+}
+
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .contenedor {
+        width: 60%; /* Ajusta el ancho del contenedor en pantallas pequeñas */
+        display: block; /* Cambiar a bloque para apilar los productos */
+    }
+    .contenedor .producto {
+        width: 100%; /* Los productos ocupan todo el ancho y se apilan */
+        margin-bottom: 20px; /* Espacio entre productos apilados */
+    }
+    .mas-productos {
+        width: 70%; /* Ancho del contenedor para más productos */
+        display: block; /* Cambia a bloque para apilar los productos */
+    }
+    .mas-productos .producto {
+        width: 100%; /* Los productos ocupan todo el ancho y se apilan */
+        margin-bottom: 20px; /* Espacio entre productos apilados */
+    }
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+    .footer-row{
+        text-align: center;
+    }
+
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column; /* Apilar elementos en el header */
+        align-items: center; /* Centrar los elementos */
+    }
+
+    .logo img {
+        height: 40px; /* Ajustar el tamaño del logo */
+    }
+
+    .nav-link {
+        font-size: 14px; /* Reducir el tamaño de las fuentes de navegación */
+        padding: 5px; /* Espaciado más pequeño */
+    }
+
+    .carrito {
+        height: 40px; /* Ajustar el tamaño del icono del carrito */
+    }
+
+    .imagen-inicio img {
+        width: 100%; /* Asegurarse de que la imagen ocupe el ancho completo */
+        height: auto; /* Mantener la relación de aspecto */
+    }
+
+    .boton {
+        font-size: 1.5em; /* Ajustar el tamaño del botón */
+        padding: 8px 16px; /* Ajustar el padding del botón */
+    }
+
+    .footer-links {
+        width: 100%; /* Hacer que los enlaces del footer ocupen todo el ancho */
+        margin: 10px 0; /* Espaciado entre enlaces del footer */
+    }
+}
